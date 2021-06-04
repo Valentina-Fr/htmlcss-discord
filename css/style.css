@@ -1,0 +1,129 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn a{
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.white-btn a { 
+    background-color: white;
+    color: black;
+}
+
+.black-btn a {
+    background-color: black;
+    color: white;
+}
+
+.small-btn a {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.big-btn a {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+
+/* Header */
+
+.col {
+    float: left;
+}
+
+header {
+    background-color: #3161e0;
+}
+
+.top-header {
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+#main-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+#main-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    display: relative;
+}
+
+.jumbotext {
+    width: 780px;
+    height: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.jumbotext h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.jumbotext p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .jumbotext .btn.big-btn.white-btn {
+    margin-right: 10px;
+}
