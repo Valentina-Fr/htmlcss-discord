@@ -135,20 +135,31 @@ header {
 
 /* Main */
 
-.left-section img {
-    object-position: 0 -35px;
+main section {
+    margin-bottom: 200px;
 }
 
-.right-section {
-    padding-left: 100px;
-    padding-right: 50px;
+#frog {
+    object-position: 0 -33px;
 }
 
-.right-section h2 {
+#magician {
+    object-position: 0 -30px;
+}
+
+#graggle {
+    object-position: 0 -15px;
+}
+
+.side-text {
+    padding: 0 100px;
+}
+
+.side-text h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.right-section p {
+.side-text p {
     font-size: 20px;
 }
