@@ -43,8 +43,8 @@ body {
     text-align: right;
 }
 
-.btn a{
-    border-radius: 20px;
+.btn a {
+    border-radius: 25px;
     text-decoration: none;
 }
 
@@ -58,6 +58,11 @@ body {
     color: white;
 }
 
+.violet-btn a {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .small-btn a {
     font-size: 14px;
     padding: 10px;
@@ -65,7 +70,7 @@ body {
 
 .big-btn a {
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 
@@ -155,11 +160,18 @@ main section {
     padding: 0 100px;
 }
 
-.side-text h2 {
+section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.side-text p {
+section p {
     font-size: 20px;
 }
+
+.star {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
