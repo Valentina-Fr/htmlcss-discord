@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -29,6 +29,10 @@ body {
 
 .w-60 {
     width: 60%;
+}
+
+.w-40 {
+    width: 40%;
 }
 
 .text-center {
@@ -101,6 +105,7 @@ header {
     background-size: cover;
     background-position: center;
     display: relative;
+    margin-bottom: 120px;
 }
 
 .jumbotext {
@@ -126,4 +131,24 @@ header {
 
 .jumbotron .jumbotext .btn.big-btn.white-btn {
     margin-right: 10px;
+}
+
+/* Main */
+
+.left-section img {
+    object-position: 0 -35px;
+}
+
+.right-section {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.right-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    font-size: 20px;
 }
