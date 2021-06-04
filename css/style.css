@@ -182,13 +182,13 @@ section p {
 /* Footer */
 
 .bgdark {
-    height: 500px;
+    height: 600px;
     background-color: #23272a;
     color: white;
 }
 
 .footer-left {
-    padding: 120px;
+    padding: 60px 160px 0 0;
 }
 
 .footer-left h1 {
@@ -211,3 +211,37 @@ section p {
     font-size: 20px;
     margin-right: 20px;
 }
+
+.nav-type {
+    padding-top: 60px;
+}
+
+.nav-type h4 {
+    color: #7289da;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.nav-type ul {
+  list-style-type: none;  
+}
+
+.nav-type ul li {
+    margin: 10px 0;
+}
+
+.nav-type li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+footer hr {
+    border-color: #7289da;
+    margin: 35px 0;
+}
+
+.footer-under .btn {
+    float: right;
+}
+
